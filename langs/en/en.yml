@@ -1,0 +1,14 @@
+---
+en:
+  t_confrim: 'Confirm'
+  t_disable: 'Disable'
+  t_disabled: 'Disabled'
+  t_enable: 'Enable'
+  t_enabled: 'Enabled'
+  t_off: 'Off'
+  t_on: 'On'
+  t_reject: 'Reject'
+  t_test_newline: 'new\nline'
+  t_test_space: 'spa ce'
+  t_test_wrap: 'This is a very very very very very very very very long string'
+...

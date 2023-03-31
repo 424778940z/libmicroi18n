@@ -1,0 +1,10 @@
+
+fonts:
+  basic:
+    path: 'fonts/basic.yaml'
+  special:
+    path: 'fonts/special.yaml'
+
+langs:
+  en:
+    path: 'langs/en/en.yml'
