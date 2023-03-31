@@ -1,0 +1,6 @@
+.vscode/
+.venv/
+.build/
+build/
+gen/
+CMakeLists.txt.user
