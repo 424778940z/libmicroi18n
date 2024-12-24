@@ -621,7 +621,7 @@ def gen_lang_c(lang: str) -> str:
         array_s = array_s[:-2]  # remove the last ', '
 
         lang_c += f'const i18n_bitmap_obj* i18n_trans_bitmap_{lang_name}_{trans}[] = {{ {array_s} }};\n'
-        lang_c += f'const i18n_trans_obj i18n_trans_{lang_name}_{trans} = {{ .bitmap_count =  {len(lang[lang_name][trans])}, .bitmap_obj = i18n_trans_bitmap_{lang_name}_{trans}}};\n'
+        lang_c += f'const i18n_trans_obj i18n_trans_{lang_name}_{trans} = {{ .bitmap_count =  {len(lang[lang_name][trans].replace('\\n','\n'))}, .bitmap_obj = i18n_trans_bitmap_{lang_name}_{trans}}};\n'
     lang_c += '\n'
 
     # object array
