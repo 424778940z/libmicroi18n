@@ -4,7 +4,11 @@ fonts:
     path: 'fonts/basic.yaml'
   special:
     path: 'fonts/special.yaml'
+  dingmao:
+    path: 'fonts/dingmao.yaml'
 
 langs:
   en:
     path: 'langs/en/en.yml'
+  zh_CN:
+    path: 'langs/zh_CN/zh_CN.yml'

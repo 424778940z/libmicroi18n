@@ -1,0 +1,14 @@
+---
+zh_CN:
+  t_confrim: 确认
+  t_disable: 禁用
+  t_disabled: 已禁用
+  t_enable: 启用
+  t_enabled: 已启用
+  t_off: 关闭
+  t_on: 开启
+  t_reject: 拒绝
+  t_test_newline: '换\n行'
+  t_test_space: '空 格'
+  t_test_wrap: '这是一个非常非常非常非常非常非常非常非常非常非常非常长的句子'
+...
